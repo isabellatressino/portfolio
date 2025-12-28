@@ -1,0 +1,42 @@
+@layer base {
+
+    * {
+        @apply m-0 p-0 box-border;
+    }
+
+
+    html {
+        @apply scroll-smooth;
+    }
+
+    body {
+        @apply bg-background text-text-muted font-default;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        @apply uppercase text-text-main font-display font-semibold;
+    }
+
+    h1 {
+        @apply text-6xl xs:text-7xl sm:text-8xl lg:text-9xl;
+    }
+
+    h2 {
+        @apply text-5xl xs:text-6xl sm:text-7xl;
+    }
+
+    h3 {
+        @apply text-xl;
+    }
+
+    p {
+        @apply text-base;
+    }
+
+    button {
+        @apply text-sm font-display uppercase cursor-pointer h-8 xs:h-10 transition-all duration-500;
+    }
+}

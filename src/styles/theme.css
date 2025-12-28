@@ -1,0 +1,13 @@
+@theme {
+  --color-primary: #ff3b00;
+  --color-background: #0a0a0a;
+  --color-surface: #141414;
+  --color-text-main: #dedada;
+  --color-text-muted: #918e8e;
+
+  --font-display: "Oswald", sans-serif;
+  --font-default: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --breakpoint-xs: 23.4375rem;
+}

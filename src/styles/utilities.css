@@ -1,0 +1,21 @@
+@layer utilities {
+    .grid-design {
+        @apply grid grid-cols-4 sm:grid-cols-8 lg:grid-cols-12 gap-x-4 auto-rows-min;
+    }
+
+    .text-gradient {
+        @apply bg-linear-to-r from-text-main to-text-muted bg-clip-text text-transparent;
+    }
+
+    .bg-grid {
+        background-image:
+            linear-gradient(to right,
+                color-mix(in srgb, var(--color-text-muted) 8%, transparent) 1px,
+                transparent 1px),
+            linear-gradient(to bottom,
+                color-mix(in srgb, var(--color-text-muted) 8%, transparent) 1px,
+                transparent 1px);
+
+        background-size: 48px 48px;
+    }
+}
