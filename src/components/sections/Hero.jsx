@@ -58,12 +58,12 @@ export default function Hero() {
                 aplicada.
             </p>
 
-            <button className="bg-text-main text-background col-span-4 mt-6 xs:col-span-2 sm:col-start-2 hover:bg-primary hover:text-text-main hover:scale-105">
+            <a href="#projects" className="link-button flex items-center justify-center bg-text-main text-background col-span-4 mt-6 xs:col-span-2 sm:col-start-2 hover:bg-primary hover:text-text-main hover:scale-105">
                 Ver Projetos
-            </button>
-            <button className="text-text-main bg-background border border-text-main mt-6 col-span-4 xs:col-span-2 sm:col-start-4 hover:bg-text-muted/50 hover:scale-105">
+            </a>
+            <a href="#about" className="link-button flex items-center justify-center text-text-main bg-background border border-text-main mt-6 col-span-4 xs:col-span-2 sm:col-start-4 hover:bg-text-muted/50 hover:scale-105">
                 Quem Sou Eu
-            </button>
+            </a>
 
 
             <div className="col-span-4 flex flex-col mt-10 items-end uppercase font-mono sm:col-span-8 lg:col-start-11 lg:mt-0 lg:col-span-2">
