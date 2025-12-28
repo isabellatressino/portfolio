@@ -2,7 +2,7 @@ import { projects } from "../../data/projects"
 
 export default function Projects() {
     return (
-        <section className="min-h-screen grid-design py-8 sm:py-10 lg:py-20">
+        <section id="projects" className="min-h-screen grid-design py-8 sm:py-10 lg:py-20 pt-18">
 
             <div className="relative col-span-4 ml-8 sm:ml-10 lg:ml-20 sm:col-span-8 lg:col-span-12">
                 <h2 className="">

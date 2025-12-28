@@ -30,9 +30,9 @@ export default function Hero() {
     }, []);
 
     return (
-        <section
+        <section id="hero"
             ref={heroRef}
-            className="relative min-h-screen grid-design content-center px-8 sm:px-10 lg:px-20 2xl:px-0"
+            className="relative min-h-screen grid-design content-center px-8 sm:px-10 lg:px-20 2xl:px-0 pt-10"
         >
             <div
                 className="absolute left-10 top-0 w-[35%] md:w-[20%] bg-primary -z-10 sm:left-12 lg:left-24"
@@ -45,7 +45,7 @@ export default function Hero() {
 
             <h1 className="col-span-4 flex flex-col sm:col-span-8 sm:grid sm:grid-cols-8 lg:grid-cols-12 lg:col-span-12">
                 <span className="sm:col-span-8 ">Isabella</span>
-                <span ref={spanRef} className="ml-6 sm:ml-0 sm:col-start-2 sm:col-span-8">
+                <span ref={spanRef} className="ml-6 sm:ml-0 sm:col-start-2 sm:col-span-8 text-gradient">
                     Tressino
                 </span>
             </h1>

@@ -1,23 +1,28 @@
-import Hero from "../components/sections/Hero.jsx"
-import About from "../components/sections/About.jsx"
-import Projects from "../components/sections/Projects.jsx"
-import TechStack from "../components/sections/TechStack.jsx"
-import Footer from "../components/layout/Footer.jsx"
+import Navbar from "../components/layout/NavBar.jsx";
+import Hero from "../components/sections/Hero.jsx";
+import About from "../components/sections/About.jsx";
+import Projects from "../components/sections/Projects.jsx";
+import TechStack from "../components/sections/TechStack.jsx";
+import Footer from "../components/layout/Footer.jsx";
 
 export default function Home() {
   return (
     <>
-      <header className="w-full bg-grid">
+      <Navbar />
+
+      <header className="bg-grid">
         <div className="mx-auto max-w-300">
           <Hero />
         </div>
       </header>
 
-      <main className="w-full">
+      <main>
         <div className="mx-auto max-w-300">
           <About />
         </div>
+
         <Projects />
+
         <div className="mx-auto max-w-300">
           <TechStack />
         </div>
@@ -29,5 +34,5 @@ export default function Home() {
         </div>
       </footer>
     </>
-  )
+  );
 }

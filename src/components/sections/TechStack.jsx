@@ -3,7 +3,7 @@ import TechGroup from "../utils/TechGroup"
 
 export default function TechStack() {
     return (
-        <section className="grid-design gap-y-10 p-8 sm:p-10 lg:p-20">
+        <section id="tech" className="grid-design gap-y-10 p-8 sm:p-10 lg:p-20 pt-20">
 
             <div className="col-span-4 mx-auto sm:col-span-8 lg:col-span-12">
                 <h2>

@@ -2,7 +2,7 @@ import profileImg from "../../assets/images/profile.png";
 
 export default function About() {
     return (
-        <section className="min-h-screen grid-design gap-y-10 content-center p-8 sm:p-10 lg:p-20 2xl:p-0">
+        <section id="about" className="min-h-screen grid-design gap-y-10 content-center p-8 sm:p-10 lg:p-20 2xl:p-0 pt-20">
             <div className="relative col-span-4 sm:col-start-5 sm:self-end md:col-start-4 lg:col-start-6">
                 <h2 className="">
                     Sobre
