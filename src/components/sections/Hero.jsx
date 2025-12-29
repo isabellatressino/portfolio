@@ -1,5 +1,6 @@
 import { useRef, useLayoutEffect, useState } from "react";
 import { motion } from "framer-motion";
+import TechMarquee from "../utils/TechMarquee";
 
 export default function Hero() {
     const heroRef = useRef(null);
@@ -159,6 +160,9 @@ export default function Hero() {
                     Linkedin
                 </motion.a>
             </motion.div>
+
+            {/* <TechMarquee /> */}
+
         </motion.section>
     );
 }

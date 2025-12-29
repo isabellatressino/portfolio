@@ -4,16 +4,18 @@ import About from "../components/sections/About.jsx";
 import Projects from "../components/sections/Projects.jsx";
 import TechStack from "../components/sections/TechStack.jsx";
 import Footer from "../components/layout/Footer.jsx";
+import TechMarquee from "../components/utils/TechMarquee.jsx";
 
 export default function Home() {
   return (
     <>
       <Navbar />
 
-      <header className="bg-grid">
+      <header className="relative bg-grid">
         <div className="mx-auto max-w-300">
           <Hero />
         </div>
+        <TechMarquee />
       </header>
 
       <main>
