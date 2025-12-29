@@ -37,6 +37,6 @@
     }
 
     button, .link-button {
-        @apply text-sm font-display uppercase cursor-pointer h-8 xs:h-10 transition-all duration-500;
+        @apply text-sm font-display uppercase cursor-pointer h-8 xs:h-10 transition-colors duration-500;
     }
 }

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import MobileMenu from "./MobileMenu";
+import { NavItem } from "../utils/NavItem";
 
 export default function Navbar() {
     const [open, setOpen] = useState(false);
@@ -25,10 +26,11 @@ export default function Navbar() {
                 <div className="mx-auto max-w-300 flex items-center justify-end px-8 sm:px-10 lg:px-20 py-2 md:py-4">
 
                     <ul className="hidden sm:flex gap-8 uppercase text-sm font-display">
-                        <li><a href="#about">Sobre mim</a></li>
-                        <li><a href="#projects">Projetos</a></li>
-                        <li><a href="#tech">Tecnologias</a></li>
+                        <NavItem href="#about">Sobre mim</NavItem>
+                        <NavItem href="#projects">Projetos</NavItem>
+                        <NavItem href="#tech">Tecnologias</NavItem>
                     </ul>
+
 
                     <button
                         onClick={() => setOpen(true)}

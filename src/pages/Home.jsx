@@ -18,7 +18,7 @@ export default function Home() {
         <TechMarquee />
       </header>
 
-      <main>
+      <main className="overflow-hidden">
         <div className="mx-auto max-w-300">
           <About />
         </div>

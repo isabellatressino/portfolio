@@ -9,7 +9,7 @@ export default function Footer() {
 
             <div className="col-span-4 gap-2 flex flex-col uppercase font-display items-center mt-8 sm:mt-0 sm:row-start-1 sm:col-start-5 sm:items-end sm:row-span-2 lg:col-start-7 lg:col-span-6 lg:row-span-2 lg:row-start-1">
                 <a href="https://github.com/isabellatressino" target="_blank" rel="noopener noreferrer" className="hover:text-text-main cursor-pointer transition-all duration-500">Github</a>
-                <a href="https://www.linkedin.com/in/isabellatressino" target="_blank" rel="noopener noreferrer">Linkedin</a>
+                <a href="https://www.linkedin.com/in/isabellatressino" target="_blank" rel="noopener noreferrer" className="hover:text-text-main cursor-pointer transition-all duration-500">Linkedin</a>
             </div>
 
             <hr className="col-span-4 mt-8 border-text-muted/30 sm:col-span-8 lg:col-span-12"></hr>
