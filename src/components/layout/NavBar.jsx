@@ -3,10 +3,13 @@ import { AnimatePresence, motion } from "framer-motion";
 import MobileMenu from "./MobileMenu";
 import { NavItem } from "../utils/NavItem";
 import LanguageToggle from '../utils/LanguageToggle.jsx'
+import { useTranslation, Trans } from "react-i18next";
 
 export default function Navbar() {
     const [open, setOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
+
+    const { t } = useTranslation();
 
     useEffect(() => {
         const onScroll = () => {
@@ -44,9 +47,9 @@ export default function Navbar() {
 
 
                     <ul className="hidden sm:flex gap-8 uppercase items-center text-sm font-display">
-                        <NavItem href="#about">Sobre mim</NavItem>
-                        <NavItem href="#projects">Projetos</NavItem>
-                        <NavItem href="#tech">Tecnologias</NavItem>
+                        <NavItem href="#about">{t("navbar.about")}</NavItem>
+                        <NavItem href="#projects">{t("navbar.projects")}</NavItem>
+                        <NavItem href="#tech">{t("navbar.tech")}</NavItem>
                         <LanguageToggle />
                     </ul>
 
@@ -54,7 +57,7 @@ export default function Navbar() {
                         onClick={() => setOpen(true)}
                         className="sm:hidden uppercase font-display text-base"
                     >
-                        Menu
+                        {t("navbar.menu")}
                     </button>
                 </div>
             </motion.nav>

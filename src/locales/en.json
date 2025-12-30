@@ -1,4 +1,10 @@
 {
+    "navbar": {
+        "about": "About me",
+        "projects": "Projects",
+        "tech": "Technologies",
+        "menu": "Menu"
+    },
     "hero": {
         "role": "Software Engineering Student",
         "firstName": "Isabella",
