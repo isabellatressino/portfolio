@@ -14,8 +14,10 @@
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.9.1",
     "framer-motion": "^12.23.26",
+    "i18next": "^25.7.3",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "react-i18next": "^16.5.0",
     "tailwindcss": "^4.1.18",
     "vite-plugin-svgr": "^4.5.0"
   },

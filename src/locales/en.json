@@ -1,0 +1,17 @@
+{
+    "hero": {
+        "role": "Software Engineering Student",
+        "firstName": "Isabella",
+        "lastName": "Tressino",
+        "description": "Software engineering student focused on web development with applied <highlight>artificial intelligence</highlight>.",
+        "buttons": {
+            "projects": "View Projects",
+            "about": "Who Am I"
+        },
+        "socials": {
+            "email": "Email",
+            "github": "Github",
+            "linkedin": "LinkedIn"
+        }
+    }
+}

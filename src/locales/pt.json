@@ -1,0 +1,17 @@
+{
+    "hero": {
+        "role": "Estudante de Engenharia de Software",
+        "firstName": "Isabella",
+        "lastName": "Tressino",
+        "description": "Estudante de engenharia de software com foco em desenvolvimento web e <highlight>inteligência artificial</highlight> aplicada.",
+        "buttons": {
+            "projects": "Ver Projetos",
+            "about": "Sobre Mim"
+        },
+        "socials": {
+            "email": "Email",
+            "github": "Github",
+            "linkedin": "Linkedin"
+        }
+    }
+}

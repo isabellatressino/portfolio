@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import LanguageToggle from "../utils/LanguageToggle";
 
 export default function MobileMenu({ onClose }) {
     return (
@@ -16,10 +17,13 @@ export default function MobileMenu({ onClose }) {
                 Close
             </button>
 
-            <ul className="flex flex-col gap-10 text-3xl font-display uppercase text-end">
+            <ul className="flex flex-col gap-10 text-3xl font-display uppercase text-end items-end">
                 <li onClick={onClose}><a href="#about">Sobre mim</a></li>
                 <li onClick={onClose}><a href="#projects">Projetos</a></li>
                 <li onClick={onClose}><a href="#tech">Tecnologias</a></li>
+                <li>
+                    <LanguageToggle className="text-3xl font-display" />
+                </li>
             </ul>
         </motion.div>
     );

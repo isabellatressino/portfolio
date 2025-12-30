@@ -1,8 +1,11 @@
 import { useRef, useLayoutEffect, useState } from "react";
 import { motion } from "framer-motion";
-import TechMarquee from "../utils/TechMarquee";
+import { useTranslation, Trans } from "react-i18next";
 
 export default function Hero() {
+
+    const { t } = useTranslation();
+
     const heroRef = useRef(null);
     const spanRef = useRef(null);
     const [barHeight, setBarHeight] = useState(0);
@@ -79,19 +82,19 @@ export default function Hero() {
                 variants={fadeUp}
                 className="col-span-4 uppercase text-[10px] text-text-main font-mono xs:text-xs sm:col-span-8"
             >
-                Estudante de Engenharia de Software
+                {t("hero.role")}
             </motion.p>
 
             <motion.h1
                 variants={fadeUp}
                 className="col-span-4 flex flex-col sm:col-span-8 sm:grid sm:grid-cols-8 lg:grid-cols-12 lg:col-span-12"
             >
-                <span className="sm:col-span-8">Isabella</span>
+                <span className="sm:col-span-8">{t("hero.firstName")}</span>
                 <span
                     ref={spanRef}
                     className="ml-6 sm:ml-0 sm:col-start-2 sm:col-span-8 text-gradient"
                 >
-                    Tressino
+                    {t("hero.lastName")}
                 </span>
             </motion.h1>
 
@@ -99,11 +102,14 @@ export default function Hero() {
                 variants={fadeUp}
                 className="col-span-4 mt-6 font-mono sm:col-start-2 sm:col-span-6"
             >
-                Estudante de engenharia de software com foco em desenvolvimento de sistemas{" "}
-                <span className="bg-primary text-text-main">
-                    inteligência artificial
-                </span>{" "}
-                aplicada.
+                <Trans
+                    i18nKey="hero.description"
+                    components={{
+                        highlight: (
+                            <span className="bg-primary text-text-main" />
+                        )
+                    }}
+                />
             </motion.p>
 
             <motion.a
@@ -114,7 +120,7 @@ export default function Hero() {
                 href="#projects"
                 className="text-sm font-display uppercase h-8 xs:h-10 flex items-center justify-center bg-text-main text-background col-span-4 mt-6 xs:col-span-2 sm:col-start-2 transition-colors duration-500 ease-out hover:bg-primary hover:text-text-main"
             >
-                Ver Projetos
+                {t("hero.buttons.projects")}
             </motion.a>
 
             <motion.a
@@ -125,7 +131,7 @@ export default function Hero() {
                 href="#about"
                 className="text-sm font-display uppercase h-8 xs:h-10 flex items-center justify-center text-text-main bg-background border border-text-main mt-6 col-span-4 xs:col-span-2 sm:col-start-4 transition-colors duration-500 ease-out hover:bg-text-muted hover:text-background"
             >
-                Quem Sou Eu
+                {t("hero.buttons.about")}
             </motion.a>
 
             <motion.div
@@ -137,7 +143,7 @@ export default function Hero() {
                     href="mailto:tressinoisabella@gmail.com"
                     className="cursor-pointer hover:text-primary transition-colors duration-500 ease-out"
                 >
-                    Email
+                    {t("hero.socials.email")}
                 </motion.a>
 
                 <motion.a
@@ -147,7 +153,7 @@ export default function Hero() {
                     rel="noopener noreferrer"
                     className="cursor-pointer hover:text-primary transition-colors duration-500 ease-out"
                 >
-                    Github
+                    {t("hero.socials.github")}
                 </motion.a>
 
                 <motion.a
@@ -157,11 +163,9 @@ export default function Hero() {
                     rel="noopener noreferrer"
                     className="cursor-pointer hover:text-primary transition-colors duration-500 ease-out"
                 >
-                    Linkedin
+                    {t("hero.socials.linkedin")}
                 </motion.a>
             </motion.div>
-
-            {/* <TechMarquee /> */}
 
         </motion.section>
     );

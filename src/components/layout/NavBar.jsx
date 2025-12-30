@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import MobileMenu from "./MobileMenu";
 import { NavItem } from "../utils/NavItem";
+import LanguageToggle from '../utils/LanguageToggle.jsx'
 
 export default function Navbar() {
     const [open, setOpen] = useState(false);
@@ -35,19 +36,19 @@ export default function Navbar() {
                         }}
                         transition={{ duration: .5, ease: "easeOut" }}
                     >
-                        <img src="favicon-32x32.png" className="h-6"/>
+                        <img src="favicon-32x32.png" className="h-6" />
                         <span className="uppercase font-display text-text-main">
                             Isabella Tressino
                         </span>
                     </motion.a>
 
 
-                    <ul className="hidden sm:flex gap-8 uppercase text-sm font-display">
+                    <ul className="hidden sm:flex gap-8 uppercase items-center text-sm font-display">
                         <NavItem href="#about">Sobre mim</NavItem>
                         <NavItem href="#projects">Projetos</NavItem>
                         <NavItem href="#tech">Tecnologias</NavItem>
+                        <LanguageToggle />
                     </ul>
-
 
                     <button
                         onClick={() => setOpen(true)}
