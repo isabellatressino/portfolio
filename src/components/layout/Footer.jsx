@@ -1,4 +1,9 @@
+import { useTranslation } from "react-i18next";
+
 export default function Footer() {
+
+    const { t } = useTranslation();
+
     return (
         <section className="grid-design p-8 sm:px-10 lg:px-20">
             <h4 className="col-span-4 text-2xl mx-auto sm:mx-0 lg:col-start-1 lg:row-start-1 lg:col-span-6">
@@ -13,7 +18,7 @@ export default function Footer() {
             </div>
 
             <hr className="col-span-4 mt-8 border-text-muted/30 sm:col-span-8 lg:col-span-12"></hr>
-            <span className="col-span-4 text-xs mt-2 mx-auto sm:col-span-8 lg:col-span-12">© 2025 Isabella Tressino. Design & desenvolvimento próprios</span>
+            <span className="col-span-4 text-xs mt-2 mx-auto sm:col-span-8 lg:col-span-12">© 2025 Isabella Tressino. {t("footer.rights")}</span>
         </section>
     )
 }

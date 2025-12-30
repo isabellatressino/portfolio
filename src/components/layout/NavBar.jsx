@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import MobileMenu from "./MobileMenu";
 import { NavItem } from "../utils/NavItem";
 import LanguageToggle from '../utils/LanguageToggle.jsx'
-import { useTranslation, Trans } from "react-i18next";
+import { useTranslation } from "react-i18next";
 
 export default function Navbar() {
     const [open, setOpen] = useState(false);

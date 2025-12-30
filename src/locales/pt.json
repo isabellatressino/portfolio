@@ -39,5 +39,40 @@
             }
         },
         "cta": "Baixar CV"
+    },
+    "projects": {
+        "section": {
+            "title": {
+                "main": "Meus",
+                "highlight": "Projetos"
+            }
+        },
+        "items": {
+            "search_ai_meetup": {
+                "name": "Search & AI Meetup BR Landing Page",
+                "description": "Landing page desenvolvida para a comunidade Search & AI Meetup BR. O projeto foi construído em React com Vite e Tailwind CSS, priorizando layout responsivo, componentização reutilizável e animações sutis com Framer Motion."
+            }
+        },
+        "actions": {
+            "live": "Live Demo",
+            "code": "Ver Código"
+        }
+    },
+    "tech": {
+        "section": {
+            "title": {
+                "main": "Tech",
+                "highlight": "& Ferramentas"
+            }
+        },
+        "groups": {
+            "frontend": "Frontend",
+            "backend": "Backend",
+            "ai": "IA & Dados",
+            "others": "Outros"
+        }
+    },
+    "footer": {
+        "rights": "Design & desenvolvimento próprios"
     }
 }

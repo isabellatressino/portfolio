@@ -1,8 +1,12 @@
 import { motion } from "framer-motion";
 import { projects } from "../../data/projects";
 import { fadeLeft, fadeRight, fadeUp } from "../../animations/animations";
+import { useTranslation } from "react-i18next";
 
 export default function Projects() {
+
+    const { t } = useTranslation();
+
     return (
         <section
             id="projects"
@@ -17,9 +21,9 @@ export default function Projects() {
                 className="relative col-span-4 ml-8 sm:ml-10 lg:ml-20 sm:col-span-8 lg:col-span-12"
             >
                 <h2>
-                    Meus
+                    {t("projects.section.title.main")}
                     <span className="absolute text-primary top-8 left-18">
-                        Projetos
+                        {t("projects.section.title.highlight")}
                     </span>
                 </h2>
             </motion.div>
@@ -57,9 +61,9 @@ export default function Projects() {
                                     : "sm:border-l sm:border-text-muted sm:ml-10"
                                     } 2xl:max-w-200`}
                             >
-                                <h3>{project.name}</h3>
+                                <h3>{t(`projects.items.${project.id}.name`)}</h3>
 
-                                <p>{project.description}</p>
+                                <p>{t(`projects.items.${project.id}.description`)}</p>
 
                                 <div className="border-l-2 border-primary pl-2 flex gap-2 flex-wrap">
                                     {project.technologies.map((tech, i) => (
@@ -86,7 +90,7 @@ export default function Projects() {
                                             rel="noopener noreferrer"
                                             className="text-sm font-display uppercase h-8 xs:h-10 flex items-center justify-center bg-primary text-text-main hover:bg-text-main hover:text-background transition-colors duration-1000 ease-out"
                                         >
-                                            Live Demo
+                                            {t("projects.actions.live")}
                                         </motion.a>
                                     )}
 
@@ -100,7 +104,7 @@ export default function Projects() {
                                             rel="noopener noreferrer"
                                             className="text-sm font-display uppercase h-8 xs:h-10 flex items-center justify-center bg-text-main text-background hover:bg-primary hover:text-text-main transition-colors duration-1000 ease-out"
                                         >
-                                            Ver Código
+                                            {t("projects.actions.code")}
                                         </motion.a>
                                     )}
                                 </div>
