@@ -19,5 +19,25 @@
             "github": "Github",
             "linkedin": "Linkedin"
         }
+    },
+    "about": {
+        "title": {
+            "main": "Sobre",
+            "highlight": "Mim"
+        },
+        "description": "Sou Isabella Tressino, estudante de engenharia de software com interesse em desenvolvimento de sistemas e inteligência artificial aplicada. Busco construir soluções bem estruturadas, conectando fundamentos acadêmicos a problemas reais.",
+        "cards": {
+            "focus": {
+                "label": "Foco",
+                "title": "Desenvolvimento & IA",
+                "text": "Criação de aplicações web e mobile com interesse em dados e inteligência artificial aplicada."
+            },
+            "approach": {
+                "label": "Abordagem",
+                "title": "Base Acadêmica",
+                "text": "Uso de fundamentos teóricos para estruturar soluções técnicas e evoluir projetos de forma consciente."
+            }
+        },
+        "cta": "Baixar CV"
     }
 }
