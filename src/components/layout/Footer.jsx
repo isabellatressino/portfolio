@@ -10,15 +10,15 @@ export default function Footer() {
                 Isabella <span className="text-gradient">Tressino</span>
             </h4>
 
-            <span className="text-sm col-span-4 font-mono mx-auto sm:text-base sm:mx-0 sm:col-start-1 lg:col-start-1 lg:col-span-6">tressinoisabella@gmail.com</span>
+            <a href="mailto:tressinoisabella@gmail.com" className="text-sm col-span-4 font-mono mx-auto sm:text-base sm:mx-0 sm:col-start-1 lg:col-start-1 lg:col-span-6 hover:text-primary transition-all ease-out duration-500" aria-label="Email">tressinoisabella@gmail.com</a>
 
             <div className="col-span-4 gap-2 flex flex-col uppercase font-display items-center mt-8 sm:mt-0 sm:row-start-1 sm:col-start-5 sm:items-end sm:row-span-2 lg:col-start-7 lg:col-span-6 lg:row-span-2 lg:row-start-1">
-                <a href="https://github.com/isabellatressino" target="_blank" rel="noopener noreferrer" className="hover:text-text-main cursor-pointer transition-all duration-500">Github</a>
-                <a href="https://www.linkedin.com/in/isabellatressino" target="_blank" rel="noopener noreferrer" className="hover:text-text-main cursor-pointer transition-all duration-500">Linkedin</a>
+                <a href="https://github.com/isabellatressino" target="_blank" rel="noopener noreferrer" className="hover:text-text-main cursor-pointer transition-all duration-500" aria-label="Github">Github</a>
+                <a href="https://www.linkedin.com/in/isabellatressino" target="_blank" rel="noopener noreferrer" className="hover:text-text-main cursor-pointer transition-all duration-500" aria-label="Linkedin">Linkedin</a>
             </div>
 
-            <hr className="col-span-4 mt-8 border-text-muted/30 sm:col-span-8 lg:col-span-12"></hr>
-            <span className="col-span-4 text-xs mt-2 mx-auto sm:col-span-8 lg:col-span-12">© 2025 Isabella Tressino. {t("footer.rights")}</span>
+            <hr role="separator" className="col-span-4 mt-8 border-text-muted/30 sm:col-span-8 lg:col-span-12"></hr>
+            <p className="col-span-4 text-xs mt-2 mx-auto sm:col-span-8 lg:col-span-12">© 2025 Isabella Tressino. {t("footer.rights")}</p>
         </section>
     )
 }

@@ -49,7 +49,8 @@ export default function Projects() {
                             >
                                 <img
                                     src={project.imgUrl}
-                                    alt={project.name}
+                                    alt=""
+                                    aria-hidden="true"
                                     className="self-center lg:max-h-80"
                                 />
                             </motion.div>

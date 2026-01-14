@@ -3,7 +3,9 @@
         "about": "Sobre mim",
         "projects": "Projetos",
         "tech": "Tecnologias",
-        "menu": "Menu"
+        "menu": "Menu",
+        "logo-aria": "Voltar ao topo",
+        "menu-close": "Fechar menu"
     },
     "hero": {
         "role": "Estudante de Engenharia de Software",
@@ -26,6 +28,7 @@
             "highlight": "Mim"
         },
         "description": "Sou Isabella Tressino, estudante de engenharia de software com interesse em desenvolvimento de sistemas e inteligência artificial aplicada. Busco construir soluções bem estruturadas, conectando fundamentos acadêmicos a problemas reais.",
+        "image": "Foto de perfil de Isabella Tressino",
         "cards": {
             "focus": {
                 "label": "Foco",

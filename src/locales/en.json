@@ -3,7 +3,9 @@
         "about": "About me",
         "projects": "Projects",
         "tech": "Technologies",
-        "menu": "Menu"
+        "menu": "Menu",
+        "logo-aria": "Back to top",
+        "menu-close": "Close menu"
     },
     "hero": {
         "role": "Software Engineering Student",
@@ -26,6 +28,7 @@
             "highlight": "Me"
         },
         "description": "I am Isabella Tressino, a software engineering student with an interest in systems development and applied artificial intelligence. I aim to build well-structured solutions by connecting academic foundations to real-world problems.",
+        "image": "Profile picture of Isabella Tressino",
         "cards": {
             "focus": {
                 "label": "Focus",

@@ -73,6 +73,7 @@ export default function Hero() {
         >
             <motion.div
                 className="absolute left-10 top-0 w-[35%] md:w-[20%] bg-primary -z-10 sm:left-12 lg:left-24"
+                aria-hidden="true"
                 initial={{ height: 0 }}
                 animate={{ height: barHeight }}
                 transition={{ duration: 1.2, ease: "easeOut" }}
@@ -106,7 +107,7 @@ export default function Hero() {
                     i18nKey="hero.description"
                     components={{
                         highlight: (
-                            <span className="bg-primary text-text-main" />
+                            <span className="bg-primary text-background" />
                         )
                     }}
                 />

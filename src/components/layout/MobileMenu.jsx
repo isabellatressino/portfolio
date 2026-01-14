@@ -8,6 +8,9 @@ export default function MobileMenu({ onClose }) {
 
     return (
         <motion.div
+            id="mobile-menu"
+            role="dialog"
+            aria-modal="true"
             initial={{ y: "-100%" }}
             animate={{ y: 0 }}
             exit={{ y: "-100%" }}
@@ -16,15 +19,16 @@ export default function MobileMenu({ onClose }) {
         >
             <button
                 onClick={onClose}
+                aria-label={t("navbar.menu-close")}
                 className="uppercase font-mono text-sm mb-16"
             >
                 Close
             </button>
 
             <ul className="flex flex-col gap-10 text-3xl font-display uppercase text-end items-end">
-                <li onClick={onClose}><a href="#about">{t("navbar.about")}</a></li>
-                <li onClick={onClose}><a href="#projects">{t("navbar.projects")}</a></li>
-                <li onClick={onClose}><a href="#tech">{t("navbar.tech")}</a></li>
+                <li role="menuitem" onClick={onClose}><a href="#about">{t("navbar.about")}</a></li>
+                <li role="menuitem" onClick={onClose}><a href="#projects">{t("navbar.projects")}</a></li>
+                <li role="menuitem" onClick={onClose}><a href="#tech">{t("navbar.tech")}</a></li>
                 <li>
                     <LanguageToggle className="text-3xl font-display" />
                 </li>

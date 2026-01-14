@@ -33,13 +33,14 @@ export default function Navbar() {
                         href="#hero"
                         className="flex gap-2 items-center"
                         initial={{ opacity: 0 }}
+                        aria-label={t("navbar.logo-aria")}
                         animate={{
                             opacity: scrolled ? 1 : 0,
                             pointerEvents: scrolled ? "auto" : "none",
                         }}
                         transition={{ duration: .5, ease: "easeOut" }}
                     >
-                        <img src="favicon-32x32.png" className="h-6" />
+                        <img aria-hidden="true" src="favicon-32x32.png" className="h-6" />
                         <span className="uppercase font-display text-text-main">
                             Isabella Tressino
                         </span>
@@ -50,11 +51,16 @@ export default function Navbar() {
                         <NavItem href="#about">{t("navbar.about")}</NavItem>
                         <NavItem href="#projects">{t("navbar.projects")}</NavItem>
                         <NavItem href="#tech">{t("navbar.tech")}</NavItem>
-                        <LanguageToggle />
+                        <li>
+                            <LanguageToggle />
+                        </li>
                     </ul>
 
                     <button
                         onClick={() => setOpen(true)}
+                        aria-label={t("navbar.menu")}
+                        aria-expanded={open}
+                        aria-controls="mobile-menu"
                         className="sm:hidden uppercase font-display text-base"
                     >
                         {t("navbar.menu")}
