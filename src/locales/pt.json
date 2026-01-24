@@ -11,7 +11,7 @@
         "role": "Estudante de Engenharia de Software",
         "firstName": "Isabella",
         "lastName": "Tressino",
-        "description": "Estudante de engenharia de software com foco em desenvolvimento web e <highlight>inteligência artificial</highlight> aplicada.",
+        "description": "Estudante de engenharia de software com foco em desenvolvimento de sistemas e <highlight>inteligência artificial</highlight> aplicada.",
         "buttons": {
             "projects": "Ver Projetos",
             "about": "Sobre Mim"
@@ -54,6 +54,10 @@
             "search_ai_meetup": {
                 "name": "Search & AI Meetup BR Landing Page",
                 "description": "Landing page desenvolvida para a comunidade Search & AI Meetup BR. O projeto foi construído em React com Vite e Tailwind CSS, priorizando layout responsivo, componentização reutilizável e animações sutis com Framer Motion."
+            },
+            "planify_ai": {
+                "name": "Planify AI",
+                "description": "Aplicação full-stack que gera planos de estudo personalizados com IA. Possui autenticação com Firebase, dashboard para gerenciar planos e progresso, sistema de créditos grátis para limitar o uso e backend em Node.js/Express com MongoDB e Prisma."
             }
         },
         "actions": {

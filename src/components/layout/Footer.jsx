@@ -18,7 +18,7 @@ export default function Footer() {
             </div>
 
             <hr role="separator" className="col-span-4 mt-8 border-text-muted/30 sm:col-span-8 lg:col-span-12"></hr>
-            <p className="col-span-4 text-xs mt-2 mx-auto sm:col-span-8 lg:col-span-12">© 2025 Isabella Tressino. {t("footer.rights")}</p>
+            <p className="col-span-4 text-xs mt-2 mx-auto sm:col-span-8 lg:col-span-12">© 2026 Isabella Tressino. {t("footer.rights")}</p>
         </section>
     )
 }

@@ -11,7 +11,7 @@
         "role": "Software Engineering Student",
         "firstName": "Isabella",
         "lastName": "Tressino",
-        "description": "Software engineering student focused on web development with applied <highlight>artificial intelligence</highlight>.",
+        "description": "Software engineering student focused on building systems and applying <highlight>artificial intelligence</highlight> in real projects.",
         "buttons": {
             "projects": "View Projects",
             "about": "Who Am I"
@@ -54,6 +54,10 @@
             "search_ai_meetup": {
                 "name": "Search & AI Meetup BR Landing Page",
                 "description": "Landing page built for the Search & AI Meetup BR community. The project was developed using React, Vite, and Tailwind CSS, focusing on responsive layout, reusable components, and subtle animations with Framer Motion."
+            },
+            "planify_ai": {
+                "name": "Planify AI",
+                "description": "Full-stack application that generates personalized study plans using AI. It features Firebase authentication, a dashboard to manage plans and progress, a free credits system to limit usage, and a Node.js/Express backend with MongoDB and Prisma."
             }
         },
         "actions": {
