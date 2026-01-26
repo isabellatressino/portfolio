@@ -5,7 +5,8 @@
         "tech": "Technologies",
         "menu": "Menu",
         "logo-aria": "Back to top",
-        "menu-close": "Close menu"
+        "menu-close": "Close menu",
+        "toggleTheme": "Toggle theme"
     },
     "hero": {
         "role": "Software Engineering Student",

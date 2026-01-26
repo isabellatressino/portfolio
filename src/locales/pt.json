@@ -5,7 +5,8 @@
         "tech": "Tecnologias",
         "menu": "Menu",
         "logo-aria": "Voltar ao topo",
-        "menu-close": "Fechar menu"
+        "menu-close": "Fechar menu",
+        "toggleTheme": "Alternar tema"
     },
     "hero": {
         "role": "Estudante de Engenharia de Software",

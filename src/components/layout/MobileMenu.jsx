@@ -1,10 +1,12 @@
 import { motion } from "framer-motion";
 import LanguageToggle from "../utils/LanguageToggle";
 import { useTranslation } from "react-i18next";
+import { Moon, Sun } from "lucide-react";
 
-export default function MobileMenu({ onClose }) {
+export default function MobileMenu({ onClose, theme, toggleTheme }) {
 
     const { t } = useTranslation();
+    const isDark = theme === "dark";
 
     return (
         <motion.div
@@ -31,6 +33,20 @@ export default function MobileMenu({ onClose }) {
                 <li role="menuitem" onClick={onClose}><a href="#tech">{t("navbar.tech")}</a></li>
                 <li>
                     <LanguageToggle className="text-3xl font-display" />
+                </li>
+                <li>
+                    <button
+                        type="button"
+                        onClick={toggleTheme}
+                        aria-label={t("navbar.toggleTheme")}
+                        className="inline-flex items-center justify-center h-10 w-10 rounded-full text-text-muted transition-colors duration-300 hover:text-text-main focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/70 focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+                    >
+                        {isDark ? (
+                            <Sun aria-hidden="true" className="h-6 w-6" />
+                        ) : (
+                            <Moon aria-hidden="true" className="h-6 w-6" />
+                        )}
+                    </button>
                 </li>
             </ul>
         </motion.div>
