@@ -1,37 +1,53 @@
-# Personal Portfolio
+# Portfolio — Isabella Tressino
 
-This repository contains my personal portfolio website, created to present my projects, technical skills, and background in software engineering.
+Personal portfolio website showcasing projects, tech stack, and background. Built with React + Vite, styled with Tailwind CSS, and animated with Framer Motion. The site supports i18n (PT/EN) and a theme toggle.
 
 ## Live Demo
 
-- 
+- https://isabellatressino.github.io/portfolio/
 
-## Technologies
+## Tech Stack
 
 - React
-- Tailwind CSS
-- JavaScript (ES6+)
 - Vite
+- Tailwind CSS
 - Framer Motion
+- i18next + react-i18next
 
 ## Features
 
-- Fully responsive
-- Mobile-first design
-- Grid-based layout system
-- Smooth animations with Framer Motion
-- Modular and reusable components
-- Clean and minimal UI
+- Fully responsive layout
+- Smooth entrance animations
+- Language toggle (PT/EN)
+- Theme toggle (dark by default)
 
-## Design & UX
+## Project Structure
 
-The layout was designed with a strong focus on typography, spacing, and visual hierarchy.
-A grid-based system was used to ensure consistency and scalability across different screen sizes.
+```
+src/
+  components/
+    layout/        # Navbar, footer, mobile menu
+    sections/      # Hero, About, Projects, Tech Stack
+    utils/         # UI helpers
+  data/            # Projects and tech stack data
+  locales/         # i18n JSON (pt.json, en.json)
+  styles/          # Tailwind layers and theme tokens
+  pages/           # Page-level composition
+```
 
-## Purpose
+## i18n
 
-This project was created for professional presentation and continuous learning, reflecting my approach to front-end development and UI design.
+Translations live in:
 
-## License
+- `src/locales/pt.json`
+- `src/locales/en.json`
 
-This project is licensed under the MIT License.
+`src/i18n.js` initializes i18next.
+
+## Deployment
+
+This repo is configured for GitHub Pages via `gh-pages`:
+
+## Copyright
+
+© 2026 Isabella Tressino. All rights reserved.
