@@ -9,31 +9,20 @@ import TechMarquee from "../components/utils/TechMarquee.jsx";
 export default function Home() {
   return (
     <>
-      <Navbar />
-
-      <header className="relative bg-grid">
-        <div className="mx-auto max-w-300">
-          <Hero />
-        </div>
+      <header>
+        <Navbar />
+        <Hero />
         <TechMarquee />
       </header>
 
-      <main className="overflow-hidden">
-        <div className="mx-auto max-w-300">
-          <About />
-        </div>
-
+      <main>
+        <About />
         <Projects />
-
-        <div className="mx-auto max-w-300">
-          <TechStack />
-        </div>
+        <TechStack />
       </main>
 
-      <footer className="w-full bg-surface">
-        <div className="mx-auto max-w-300">
-          <Footer />
-        </div>
+      <footer>
+        <Footer />
       </footer>
     </>
   );

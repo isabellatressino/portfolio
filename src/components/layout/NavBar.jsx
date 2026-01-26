@@ -27,7 +27,7 @@ export default function Navbar() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 2.2, duration: 0.6, ease: "easeOut" }}
                 className={`fixed top-0 left-0 z-50 w-full transition-colors ease-out duration-500 ${scrolled ? "bg-background/80 backdrop-blur" : "bg-transparent"}`}>
-                <div className="mx-auto max-w-300 flex items-center justify-between px-8 sm:px-10 lg:px-20 py-2 md:py-4">
+                <div className="mx-auto max-w-300 flex items-center justify-between px-8 sm:px-10 lg:px-20 2xl:px-0 py-2 md:py-5">
 
                     <motion.a
                         href="#hero"

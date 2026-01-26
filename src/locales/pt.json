@@ -35,10 +35,10 @@
                 "title": "Desenvolvimento & IA",
                 "text": "Criação de aplicações web e mobile com interesse em dados e inteligência artificial aplicada."
             },
-            "approach": {
-                "label": "Abordagem",
-                "title": "Base Acadêmica",
-                "text": "Uso de fundamentos teóricos para estruturar soluções técnicas e evoluir projetos de forma consciente."
+            "differential": {
+                "label": "Diferencial",
+                "title": "Experiência do Usuário",
+                "text": "Interfaces intuitivas, consistentes e responsivas, com foco em usabilidade e refinamento visual."
             }
         },
         "cta": "Baixar CV"
@@ -53,11 +53,11 @@
         "items": {
             "search_ai_meetup": {
                 "name": "Search & AI Meetup BR Landing Page",
-                "description": "Landing page desenvolvida para a comunidade Search & AI Meetup BR. O projeto foi construído em React com Vite e Tailwind CSS, priorizando layout responsivo, componentização reutilizável e animações sutis com Framer Motion."
+                "description": "Landing page desenvolvida para a comunidade Search & AI Meetup BR. Construída com React, Vite e Tailwind CSS, com layout responsivo, componentização reutilizável, suporte a tradução (i18n) e animações sutis com Framer Motion."
             },
             "planify_ai": {
                 "name": "Planify AI",
-                "description": "Aplicação full-stack que gera planos de estudo personalizados com IA. Possui autenticação com Firebase, dashboard para gerenciar planos e progresso, sistema de créditos grátis para limitar o uso e backend em Node.js/Express com MongoDB e Prisma."
+                "description": "Aplicação full-stack que gera planos de estudo personalizados com IA. Possui autenticação com Firebase, dashboard para gerenciar planos e progresso, sistema de créditos gratuitos para limitar o uso e backend em Node.js/Express com MongoDB e Prisma."
             }
         },
         "actions": {
