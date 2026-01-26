@@ -27,7 +27,7 @@ export default function About() {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
-                className="col-span-4 relative mt-8 sm:mt-0 mx-auto sm:row-start-1 sm:row-span-3 sm:mr-6 md:col-span-3 lg:col-span-5 lg:row-span-4 lg:col-start-1 lg:row-start-1 lg:self-center"
+                className="col-span-4 relative mt-8 sm:mt-0 mx-auto sm:row-start-1 sm:row-span-2 sm:mr-6 md:col-span-3 lg:col-span-5 lg:row-span-3 lg:col-start-1 lg:row-start-1 lg:self-center"
             >
                 <motion.div
                     variants={borderDraw}
@@ -38,7 +38,7 @@ export default function About() {
                     variants={fadeRight}
                     src={profileImg}
                     alt="Foto de perfil de Isabella Tressino"
-                    className="max-h-100 sm:max-h-none md:max-h-120 lg:max-h-180"
+                    className="max-h-100 sm:max-h-none md:max-h-120 lg:max-h-150"
                 />
             </motion.div>
 
@@ -79,7 +79,8 @@ export default function About() {
                 </motion.div>
             </div>
 
-            <motion.button
+            {/* <motion.button
+                disabled
                 variants={fadeUp}
                 initial="hidden"
                 whileInView="visible"
@@ -88,7 +89,7 @@ export default function About() {
                 transition={{ duration: .5 }}
                 viewport={{ once: true }}
                 aria-label={t("about.cta")}
-                className="col-span-4 text-background bg-text-main hover:bg-primary hover:text-text-main sm:row-start-3 md:col-span-2 md:self-start lg:row-start-4 lg:col-start-6">{t("about.cta")}</motion.button>
+                className="col-span-4 text-background bg-text-main hover:bg-primary hover:text-text-main sm:row-start-3 md:col-span-2 md:self-start lg:row-start-4 lg:col-start-6">{t("about.cta")}</motion.button> */}
 
         </section>
     )
