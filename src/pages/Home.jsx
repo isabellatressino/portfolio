@@ -9,7 +9,7 @@ import TechMarquee from "../components/utils/TechMarquee.jsx";
 export default function Home() {
   return (
     <>
-      <header>
+      <header className="relative">
         <Navbar />
         <Hero />
         <TechMarquee />
