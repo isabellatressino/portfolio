@@ -9,10 +9,10 @@
         "toggleTheme": "Alternar tema"
     },
     "hero": {
-        "role": "Estudante de Engenharia de Software",
+        "role": "Dados • IA • Engenharia de Software",
         "firstName": "Isabella",
         "lastName": "Tressino",
-        "description": "Estudante de engenharia de software com foco em desenvolvimento de sistemas e <highlight>inteligência artificial</highlight> aplicada.",
+        "description": "Estudante de Engenharia de Software com foco em Dados, Business Intelligence e <highlight>Inteligência Artificial</highlight>.",
         "buttons": {
             "projects": "Ver Projetos",
             "about": "Sobre Mim"
@@ -28,18 +28,18 @@
             "main": "Sobre",
             "highlight": "Mim"
         },
-        "description": "Sou Isabella Tressino, estudante de engenharia de software com interesse em desenvolvimento de sistemas e inteligência artificial aplicada. Busco construir soluções bem estruturadas, conectando fundamentos acadêmicos a problemas reais.",
+        "description": "Sou Isabella Tressino, estudante de Engenharia de Software, com interesse em análise de dados, Business Intelligence e Inteligência Artificial. Tenho experiência em projetos envolvendo Machine Learning, séries temporais e visualização de dados, buscando transformar informações em soluções que apoiem a tomada de decisão.",
         "image": "Foto de perfil de Isabella Tressino",
         "cards": {
             "focus": {
                 "label": "Foco",
-                "title": "Desenvolvimento & IA",
-                "text": "Criação de aplicações web e mobile com interesse em dados e inteligência artificial aplicada."
+                "title": "Dados & IA",
+                "text": "Análise de dados, Machine Learning, Business Intelligence e desenvolvimento de soluções orientadas por dados."
             },
             "differential": {
                 "label": "Diferencial",
-                "title": "Experiência do Usuário",
-                "text": "Interfaces intuitivas, consistentes e responsivas, com foco em usabilidade e refinamento visual."
+                "title": "Pesquisa Aplicada",
+                "text": "Experiência em pesquisa científica, análise de dados ambientais e modelos de Machine Learning aplicados a problemas reais."
             }
         },
         "cta": "Baixar CV"

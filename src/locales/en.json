@@ -9,10 +9,10 @@
         "toggleTheme": "Toggle theme"
     },
     "hero": {
-        "role": "Software Engineering Student",
+        "role": "Data • AI • Software Engineering",
         "firstName": "Isabella",
         "lastName": "Tressino",
-        "description": "Software engineering student focused on building systems and applying <highlight>artificial intelligence</highlight> in real projects.",
+        "description": "Software Engineering student focused on Data, Business Intelligence and <highlight>Artificial Intelligence</highlight>.",
         "buttons": {
             "projects": "View Projects",
             "about": "Who Am I"
@@ -28,18 +28,18 @@
             "main": "About",
             "highlight": "Me"
         },
-        "description": "I am Isabella Tressino, a software engineering student with an interest in systems development and applied artificial intelligence. I aim to build well-structured solutions by connecting academic foundations to real-world problems.",
+        "description": "I am Isabella Tressino, a Software Engineering student with an interest in Data Analytics, Business Intelligence and Artificial Intelligence. I have experience working on projects involving Machine Learning, time series analysis and data visualization, aiming to transform data into solutions that support decision-making.",
         "image": "Profile picture of Isabella Tressino",
         "cards": {
             "focus": {
                 "label": "Focus",
-                "title": "Development & AI",
-                "text": "Building web and mobile applications with an interest in data and applied artificial intelligence."
+                "title": "Data & AI",
+                "text": "Data analysis, Machine Learning, Business Intelligence and the development of data-driven solutions."
             },
             "differential": {
                 "label": "Differential",
-                "title": "User Experience",
-                "text": "Intuitive, consistent, and responsive interfaces, focused on usability and visual refinement."
+                "title": "Applied Research",
+                "text": "Experience in scientific research, environmental data analysis and Machine Learning models applied to real-world problems."
             }
         },
         "cta": "Download CV"
