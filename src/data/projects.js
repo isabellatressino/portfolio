@@ -7,8 +7,7 @@ export const projects = [
         id: "hydromonitor",
         technologies: ["Python", "Pandas", "Scikit-learn", "Node", "Express", "MongoDB", "React"],
         imgUrl: hydroMonitorImg,
-        // Ainda não hospedado: o botão aparece sem link até a URL ser definida
-        liveDemo: "",
+        liveDemo: "https://hydromonitor-dashboard.vercel.app",
         repo: null
     },
     {
