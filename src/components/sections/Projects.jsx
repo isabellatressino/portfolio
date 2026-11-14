@@ -76,6 +76,14 @@ export default function Projects() {
                                         ))}
                                     </div>
                                     <div className="grid grid-cols-2 gap-4 mt-4">
+                                        {project.liveDemo === "" && (
+                                            <span
+                                                aria-disabled="true"
+                                                className="text-sm font-display uppercase h-8 xs:h-10 flex items-center justify-center bg-text-muted/20 text-text-muted cursor-not-allowed select-none"
+                                            >
+                                                {t("projects.actions.live")}
+                                            </span>
+                                        )}
                                         {project.liveDemo && (
                                             <motion.a
                                                 href={project.liveDemo}

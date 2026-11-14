@@ -1,25 +1,27 @@
 {
     "navbar": {
         "about": "About me",
+        "research": "Achievements",
         "projects": "Projects",
         "tech": "Technologies",
         "menu": "Menu",
         "logo-aria": "Back to top",
         "menu-close": "Close menu",
-        "toggleTheme": "Toggle theme"
+        "toggleTheme": "Toggle theme",
+        "close": "Close"
     },
     "hero": {
-        "role": "Data • AI • Software Engineering",
+        "role": "Software Engineering • Data & AI",
         "firstName": "Isabella",
         "lastName": "Tressino",
-        "description": "Software Engineering student focused on Data, Business Intelligence and <highlight>Artificial Intelligence</highlight>.",
+        "description": "Software Engineering student focused on <highlight>data</highlight> and <highlight>Artificial Intelligence</highlight>.",
         "buttons": {
             "projects": "View Projects",
             "about": "Who Am I"
         },
         "socials": {
             "email": "Email",
-            "github": "Github",
+            "github": "GitHub",
             "linkedin": "LinkedIn"
         }
     },
@@ -28,21 +30,63 @@
             "main": "About",
             "highlight": "Me"
         },
-        "description": "I am Isabella Tressino, a Software Engineering student with an interest in Data Analytics, Business Intelligence and Artificial Intelligence. I have experience working on projects involving Machine Learning, time series analysis and data visualization, aiming to transform data into solutions that support decision-making.",
+        "description": "I'm a Software Engineering student at PUC-Campinas focused on data and Artificial Intelligence, especially Machine Learning and how to turn data into answers for real-world problems. Much of my path has been built through scientific research, an area I hold dear and where I learned to investigate carefully, question results and share what I discover. I also enjoy seeing technology come to life, whether by building dashboards that support decisions or developing systems that make an impact. I'm always looking for challenges that bring together data, AI and purpose.",
         "image": "Profile picture of Isabella Tressino",
         "cards": {
             "focus": {
                 "label": "Focus",
                 "title": "Data & AI",
-                "text": "Data analysis, Machine Learning, Business Intelligence and the development of data-driven solutions."
+                "text": "Machine Learning, time series, anomaly detection and Business Intelligence."
             },
             "differential": {
-                "label": "Differential",
-                "title": "Applied Research",
-                "text": "Experience in scientific research, environmental data analysis and Machine Learning models applied to real-world problems."
+                "label": "Strength",
+                "title": "Scientific Research",
+                "text": "FAPESP scholarship holder, co-author of an article in the journal Water (MDPI) and speaker at an international workshop."
             }
         },
         "cta": "Download CV"
+    },
+    "research": {
+        "section": {
+            "title": {
+                "main": "My",
+                "highlight": "Achievements"
+            },
+            "intro": "Publications, talks and presentations that have shaped my path in research and technology."
+        },
+        "items": {
+            "water_article": {
+                "meta": "June 2026 • Scientific publication",
+                "name": "Article in Water (MDPI)",
+                "description": "Systematic literature review mapping how Artificial Intelligence and remote sensing are being used to monitor inland surface water quality, bringing together tools, methods, challenges and future directions.",
+                "caption": "Artificial Intelligence and Remote Sensing for Inland Surface Water Quality Monitoring: A Systematic Literature Review of Tools, Methods, Challenges, and Future Directions • Water 2026, 18(12), 1459",
+                "alt": "Certificate of publication of the article in the journal Water (MDPI)"
+            },
+            "ciw_2026": {
+                "meta": "September 2026 • Campinas",
+                "name": "Campinas Innovation Week 2026",
+                "description": "Campinas' innovation event. I exhibited HydroMonitor at the Mescla booth, PUC-Campinas' innovation hub.",
+                "caption": "Campinas Innovation Week 2026 • Mescla booth, PUC-Campinas",
+                "alt": "HydroMonitor team at the Mescla booth, PUC-Campinas, at Campinas Innovation Week 2026",
+                "document": "Certificate of participation"
+            },
+            "sustentare_2025": {
+                "meta": "November 2025 • PUC-Campinas",
+                "name": "Sustentare & WIPIS 2025",
+                "description": "International workshop on sustainability, indicators and water resources management. I took part as a speaker, presenting HydroMonitor as a result of the FAPESP research project Bacias Hidrográficas Inteligentes.",
+                "caption": "Sustentare & WIPIS 2025 • International Workshop on Sustainability, Indicators and Water Resources Management",
+                "alt": "HydroMonitor team at the Sustentare & WIPIS 2025 presentation",
+                "document": "Speaker certificate"
+            }
+        },
+        "actions": {
+            "article": "Read article"
+        },
+        "lightbox": {
+            "close": "Close",
+            "prev": "Previous image",
+            "next": "Next image"
+        }
     },
     "projects": {
         "section": {
@@ -52,6 +96,10 @@
             }
         },
         "items": {
+            "hydromonitor": {
+                "name": "HydroMonitor",
+                "description": "Water monitoring system that tracks real-time water quality and quantity data from the PCJ river basins. Using Machine Learning models, it identifies when something deviates from the expected behavior and issues alerts explaining each one. It grew out of the Bacias Hidrográficas Inteligentes research project (FAPESP)."
+            },
             "search_ai_meetup": {
                 "name": "Search & AI Meetup BR Landing Page",
                 "description": "Landing page developed for the Search & AI Meetup BR community. Built with React, Vite, and Tailwind CSS, featuring a responsive layout, reusable component-based structure, i18n translation support, and subtle animations with Framer Motion."

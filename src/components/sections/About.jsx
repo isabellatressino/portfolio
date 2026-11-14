@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import profileImg from "../../assets/images/profile.png";
 import { fadeLeft, fadeRight, fadeUp, borderDraw } from "../../animations/animations";
 import { useTranslation } from "react-i18next";
+import cvUrl from "../../assets/cv/Curriculo_Isabella_Tressino.pdf";
 
 export default function About() {
 
@@ -36,7 +37,7 @@ export default function About() {
                     <motion.img
                         variants={fadeRight}
                         src={profileImg}
-                        alt="Foto de perfil de Isabella Tressino"
+                        alt={t("about.image")}
                         className="max-h-100 sm:max-h-none md:max-h-120 lg:max-h-150"
                     />
                 </motion.div>
@@ -74,8 +75,10 @@ export default function About() {
                         <p>{t("about.cards.differential.text")}</p>
                     </motion.div>
                 </div>
-                {/* <motion.button
-                    disabled
+                <motion.a
+                    href={cvUrl || undefined}
+                    aria-disabled={!cvUrl || undefined}
+                    download={cvUrl ? "Curriculo_Isabella_Tressino.pdf" : undefined}
                     variants={fadeUp}
                     initial="hidden"
                     whileInView="visible"
@@ -83,8 +86,7 @@ export default function About() {
                     whileTap={{ scale: 0.98 }}
                     transition={{ duration: .5 }}
                     viewport={{ once: true }}
-                    aria-label={t("about.cta")}
-                    className="col-span-4 text-background bg-text-main hover:bg-primary hover:text-text-main sm:row-start-3 md:col-span-2 md:self-start lg:row-start-4 lg:col-start-6">{t("about.cta")}</motion.button> */}
+                    className="col-span-4 text-sm font-display uppercase h-8 xs:h-10 flex items-center justify-center text-background bg-text-main transition-colors duration-500 ease-out hover:bg-primary hover:text-text-main sm:row-start-3 md:col-span-2 md:self-start lg:row-start-4 lg:col-start-6">{t("about.cta")}</motion.a>
             </div>
 
         </section>

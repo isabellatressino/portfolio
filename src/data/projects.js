@@ -1,7 +1,16 @@
 import searchAndAIMeetupImg from "../assets/images/projects/search-and-ai-meetup.png"
 import planifyAI from "../assets/images/projects/planify-ai.png"
+import hydroMonitorImg from "../assets/images/projects/hydromonitor.png"
 
 export const projects = [
+    {
+        id: "hydromonitor",
+        technologies: ["Python", "Pandas", "Scikit-learn", "Node", "Express", "MongoDB", "React"],
+        imgUrl: hydroMonitorImg,
+        // Ainda não hospedado: o botão aparece sem link até a URL ser definida
+        liveDemo: "",
+        repo: null
+    },
     {
         id: "search_ai_meetup",
         technologies: ["React", "Vite", "Tailwind CSS", "Framer Motion"],

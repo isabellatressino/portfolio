@@ -24,11 +24,12 @@ export default function MobileMenu({ onClose, theme, toggleTheme }) {
                 aria-label={t("navbar.menu-close")}
                 className="uppercase font-mono text-sm mb-16"
             >
-                Close
+                {t("navbar.close")}
             </button>
 
             <ul className="flex flex-col gap-10 text-3xl font-display uppercase text-end items-end">
                 <li role="menuitem" onClick={onClose}><a href="#about">{t("navbar.about")}</a></li>
+                <li role="menuitem" onClick={onClose}><a href="#research">{t("navbar.research")}</a></li>
                 <li role="menuitem" onClick={onClose}><a href="#projects">{t("navbar.projects")}</a></li>
                 <li role="menuitem" onClick={onClose}><a href="#tech">{t("navbar.tech")}</a></li>
                 <li>

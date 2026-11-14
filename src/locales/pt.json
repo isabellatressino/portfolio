@@ -1,26 +1,28 @@
 {
     "navbar": {
         "about": "Sobre mim",
+        "research": "Conquistas",
         "projects": "Projetos",
         "tech": "Tecnologias",
         "menu": "Menu",
         "logo-aria": "Voltar ao topo",
         "menu-close": "Fechar menu",
-        "toggleTheme": "Alternar tema"
+        "toggleTheme": "Alternar tema",
+        "close": "Fechar"
     },
     "hero": {
-        "role": "Dados • IA • Engenharia de Software",
+        "role": "Engenharia de Software • Dados & IA",
         "firstName": "Isabella",
         "lastName": "Tressino",
-        "description": "Estudante de Engenharia de Software com foco em Dados, Business Intelligence e <highlight>Inteligência Artificial</highlight>.",
+        "description": "Estudante de Engenharia de Software com foco em <highlight>dados</highlight> e <highlight>Inteligência Artificial</highlight>.",
         "buttons": {
             "projects": "Ver Projetos",
             "about": "Sobre Mim"
         },
         "socials": {
             "email": "Email",
-            "github": "Github",
-            "linkedin": "Linkedin"
+            "github": "GitHub",
+            "linkedin": "LinkedIn"
         }
     },
     "about": {
@@ -28,21 +30,63 @@
             "main": "Sobre",
             "highlight": "Mim"
         },
-        "description": "Sou Isabella Tressino, estudante de Engenharia de Software, com interesse em análise de dados, Business Intelligence e Inteligência Artificial. Tenho experiência em projetos envolvendo Machine Learning, séries temporais e visualização de dados, buscando transformar informações em soluções que apoiem a tomada de decisão.",
+        "description": "Sou estudante de Engenharia de Software na PUC-Campinas, com foco em dados e Inteligência Artificial, especialmente em Machine Learning e em como transformar dados em respostas para problemas reais. Boa parte do meu caminho foi construída na pesquisa científica, área pela qual tenho um carinho especial e onde aprendi a investigar com cuidado, questionar resultados e compartilhar o que descobri. Também gosto de ver a tecnologia sair do papel, seja criando dashboards que apoiam decisões ou desenvolvendo sistemas que geram impacto. Estou sempre em busca de desafios que unam dados, IA e propósito.",
         "image": "Foto de perfil de Isabella Tressino",
         "cards": {
             "focus": {
                 "label": "Foco",
                 "title": "Dados & IA",
-                "text": "Análise de dados, Machine Learning, Business Intelligence e desenvolvimento de soluções orientadas por dados."
+                "text": "Machine Learning, séries temporais, detecção de anomalias e Business Intelligence."
             },
             "differential": {
                 "label": "Diferencial",
-                "title": "Pesquisa Aplicada",
-                "text": "Experiência em pesquisa científica, análise de dados ambientais e modelos de Machine Learning aplicados a problemas reais."
+                "title": "Pesquisa Científica",
+                "text": "Bolsista FAPESP, coautora de artigo na revista Water (MDPI) e palestrante em workshop internacional."
             }
         },
         "cta": "Baixar CV"
+    },
+    "research": {
+        "section": {
+            "title": {
+                "main": "Minhas",
+                "highlight": "Conquistas"
+            },
+            "intro": "Publicações, palestras e apresentações que marcaram minha trajetória na pesquisa e na tecnologia."
+        },
+        "items": {
+            "water_article": {
+                "meta": "Junho de 2026 • Publicação científica",
+                "name": "Artigo na revista Water (MDPI)",
+                "description": "Revisão sistemática da literatura que mapeia como a Inteligência Artificial e o sensoriamento remoto vêm sendo usados no monitoramento da qualidade de águas superficiais continentais, reunindo ferramentas, métodos, desafios e direções futuras.",
+                "caption": "Artificial Intelligence and Remote Sensing for Inland Surface Water Quality Monitoring: A Systematic Literature Review of Tools, Methods, Challenges, and Future Directions • Water 2026, 18(12), 1459",
+                "alt": "Certificado de publicação do artigo na revista Water (MDPI)"
+            },
+            "ciw_2026": {
+                "meta": "Setembro de 2026 • Campinas",
+                "name": "Campinas Innovation Week 2026",
+                "description": "Evento de inovação de Campinas. Fui expositora no estande do Mescla, hub de inovação da PUC-Campinas, apresentando o HydroMonitor.",
+                "caption": "Campinas Innovation Week 2026 • Estande do Mescla, PUC-Campinas",
+                "alt": "Equipe do HydroMonitor no estande do Mescla, da PUC-Campinas, no Campinas Innovation Week 2026",
+                "document": "Declaração de participação"
+            },
+            "sustentare_2025": {
+                "meta": "Novembro de 2025 • PUC-Campinas",
+                "name": "Sustentare & WIPIS 2025",
+                "description": "Workshop internacional sobre sustentabilidade, indicadores e gestão de recursos hídricos. Participei como palestrante, apresentando o HydroMonitor como resultado do projeto de pesquisa FAPESP Bacias Hidrográficas Inteligentes.",
+                "caption": "Sustentare & WIPIS 2025 • Workshop Internacional sobre Sustentabilidade, Indicadores e Gestão de Recursos Hídricos",
+                "alt": "Equipe do HydroMonitor na apresentação do Sustentare & WIPIS 2025",
+                "document": "Certificado de palestrante"
+            }
+        },
+        "actions": {
+            "article": "Ler artigo"
+        },
+        "lightbox": {
+            "close": "Fechar",
+            "prev": "Imagem anterior",
+            "next": "Próxima imagem"
+        }
     },
     "projects": {
         "section": {
@@ -52,6 +96,10 @@
             }
         },
         "items": {
+            "hydromonitor": {
+                "name": "HydroMonitor",
+                "description": "Sistema de monitoramento hídrico que acompanha, em tempo real, os dados de qualidade e quantidade da água das Bacias PCJ. Com modelos de Machine Learning, identifica quando algo foge do comportamento esperado e emite alertas explicados. Nasceu do projeto de pesquisa Bacias Hidrográficas Inteligentes (FAPESP)."
+            },
             "search_ai_meetup": {
                 "name": "Search & AI Meetup BR Landing Page",
                 "description": "Landing page desenvolvida para a comunidade Search & AI Meetup BR. Construída com React, Vite e Tailwind CSS, com layout responsivo, componentização reutilizável, suporte a tradução (i18n) e animações sutis com Framer Motion."

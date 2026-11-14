@@ -53,6 +53,7 @@ export default function Navbar() {
 
                     <ul className="hidden sm:flex gap-8 uppercase items-center text-sm font-display">
                         <NavItem href="#about">{t("navbar.about")}</NavItem>
+                        <NavItem href="#research">{t("navbar.research")}</NavItem>
                         <NavItem href="#projects">{t("navbar.projects")}</NavItem>
                         <NavItem href="#tech">{t("navbar.tech")}</NavItem>
                         <li>

@@ -18,4 +18,9 @@ i18n
         }
     });
 
+// Mantém o atributo lang da página em sincronia com o idioma escolhido
+i18n.on("languageChanged", (lng) => {
+    document.documentElement.lang = lng === "pt" ? "pt-BR" : lng;
+});
+
 export default i18n;
